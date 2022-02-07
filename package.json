@@ -1,0 +1,12 @@
+{
+    "name": "jxa-toolkit",
+    "version": "1.0.0",
+    "description": "A boilerplate / utility wrapper for JXA scripts.",
+    "scripts": {
+        "compile": "node ./scripts/compile.js",
+        "start": "./dist/app.jxa",
+        "test": "npm run compile && npm start"
+    },
+    "author": "Stephan Casas <stephan.casas@nexsyntra.com>",
+    "license": "MIT"
+}
